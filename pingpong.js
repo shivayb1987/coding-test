@@ -1,6 +1,6 @@
 var fs = require('fs')
 var input = fs.readFileSync('./input.txt', 'utf8')
-main(input)
+console.log(main(input))
 
 function main(input) {
     var [n, ...rest] = input.split("\r\n");
